@@ -37,7 +37,7 @@ public class TeacherInfoController {
     @RequestMapping("/editform/{seq}")
     public String editTeacher(@PathVariable("seq") int seq, Model model) {
         TeacherVO teacherVO = teacherInfoService.getInfo(seq);
-        model.addAttribute("teacher", teacherVO);
+        model.addAttribute("u", teacherVO);
         return "editform";
     }
 
