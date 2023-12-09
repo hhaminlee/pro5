@@ -52,7 +52,7 @@
     </div>
 </nav>
 <div id="editdiv">
-    <form:form modelAttribute="u" method="post" action="../editok">
+    <form:form modelAttribute="u" method="post" action="../editok" >
         <form:hidden path="seq"/>
         <table id="edit">
             <tr>
@@ -80,11 +80,12 @@
                 <td><form:input path="mail"/></td>
             </tr>
         </table>
-    </form:form>
+
     <div style="float: right">
         <button class="btn btn-dark" type="submit" style="margin-right: 8px">Submit</button>
         <button type="button" class="btn btn-secondary" onclick="location.href='../list'">Cancel</button>
     </div>
+    </form:form>
 </div>
 </body>
 </html>

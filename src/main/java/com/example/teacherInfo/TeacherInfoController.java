@@ -43,11 +43,11 @@ public class TeacherInfoController {
 
     @RequestMapping(value = "/editok", method = RequestMethod.POST)
     public String editTeacherOK(TeacherVO vo) {
-        int i = teacherInfoService.updateInfo(vo);
-        if (i == 0)
+        if (teacherInfoService.updateInfo(vo) == 0)
             System.out.println("데이터 수정 실패!");
         else
             System.out.println("데이터 수정 성공!!");
+
         return "redirect:list";
     }
 
