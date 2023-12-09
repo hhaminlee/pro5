@@ -50,6 +50,12 @@
         <table id="edit">
             <tr><td>사진:</td><td><input type="text" name="category"/></td></tr>
             <tr><td>이름:</td><td><input type="text" name="name"/></td></tr>
+            <tr><td>성별:</td>
+                <td>
+                    <input type="radio" name="gender" value="남성"/> 남성
+                    <input type="radio" name="gender" value="여성"/> 여성
+                </td>
+            </tr>
             <tr><td>과목:</td><td><input type="text" name="subject"/></td></tr>
             <tr><td>재직기간:</td><td><input type="number" name="term"/></td></tr>
             <tr><td>번호:</td><td><input type="text" name="phone"/></td></tr>

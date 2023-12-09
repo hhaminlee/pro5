@@ -36,6 +36,7 @@
                         <div class="card-body">
                             <p>사진: ${teacherVO.photo}</p>
                             <p>이름: ${teacherVO.name}</p>
+                            <p>성별: ${teacherVO.gender}</p>
                             <p>과목: ${teacherVO.subject}</p>
                             <p>재직기간: ${teacherVO.term}년</p>
                             <p>번호: ${teacherVO.phone}</p>

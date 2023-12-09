@@ -6,6 +6,9 @@ public class TeacherVO {
     private int seq;
     private String photo;
     private String name;
+
+    private String gender;
+
     private String subject;
     private int term;
     private String phone;
@@ -76,5 +79,12 @@ public class TeacherVO {
         this.regdate = regdate;
     }
 
+    public String getGender() {
+        return gender;
+    }
+
+    public void setGender(String gender) {
+        this.gender = gender;
+    }
 }
 

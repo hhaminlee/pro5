@@ -64,6 +64,13 @@
                 <td><form:input path="name"/></td>
             </tr>
             <tr>
+                <td>성별:</td>
+                <td>
+                    <label><form:radiobutton path="gender" value="남성"/> 남성</label>
+                    <label><form:radiobutton path="gender" value="여성"/> 여성</label>
+                </td>
+            </tr>
+            <tr>
                 <td>과목:</td>
                 <td><form:input path="subject"/></td>
             </tr>

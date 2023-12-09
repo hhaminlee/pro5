@@ -63,6 +63,7 @@
 
                         <div class="card-body">
                             <p>이름: ${u.name}</p>
+                            <p>성별: ${u.gender}</p>
                             <p>과목: ${u.subject}</p>
                             <p>번호: ${u.phone}</p>
                             <p>이메일: ${u.mail}</p>
