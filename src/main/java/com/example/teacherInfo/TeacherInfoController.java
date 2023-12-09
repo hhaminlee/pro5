@@ -43,23 +43,6 @@ public class TeacherInfoController {
 
         return "redirect:list";
     }
-//    @RequestMapping(value = "/addok", method = RequestMethod.POST)
-//    public String addTeacherOK(@ModelAttribute("u") TeacherVO vo,
-//                               @RequestParam("photoFile") MultipartFile file) throws IOException {
-//        if (!file.isEmpty()) {
-//            // 파일 업로드 및 경로 설정
-//            String filePath = fileUploadService.uploadFile(file, uploadDirectory);
-//            vo.setPhoto(filePath);
-//        }
-//
-//        int result = teacherInfoService.insertInfo(vo);
-//        if (result == 0)
-//            System.out.println("데이터 추가 실패!");
-//        else
-//            System.out.println("데이터 추가 성공!!");
-//
-//        return "redirect:list";
-//    }
 
     @RequestMapping("/editform/{seq}")
     public String editTeacher(@PathVariable("seq") int seq, Model model) {
