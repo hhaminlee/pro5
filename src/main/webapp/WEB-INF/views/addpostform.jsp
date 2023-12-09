@@ -46,9 +46,9 @@
 </nav>
 <div id="add">
     <h1><i class="fa-solid fa-person-chalkboard"></i>새로운 교수님 등록</h1>
-    <form name="myForm" action="addok" method="post">
+    <form name="myForm" action="addok" method="post" enctype="multipart/form-data">
         <table id="edit">
-            <tr><td>사진:</td><td><input type="text" name="category"/></td></tr>
+            <tr><td>사진:</td><td><input type="text" name="photo"/></td></tr>
             <tr><td>이름:</td><td><input type="text" name="name"/></td></tr>
             <tr><td>과목:</td><td><input type="text" name="subject"/></td></tr>
             <tr><td>재직기간:</td><td><input type="number" name="term"/></td></tr>

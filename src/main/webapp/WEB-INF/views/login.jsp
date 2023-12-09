@@ -25,7 +25,7 @@
 </head>
 <body>
 <div style='width:100%;text-align:center;padding-top:100px'>
-    <img src="../img/background.png" height="250">
+    <img src="../img/photo3.jpg" height="250">
     <form method="post" action="loginOk">
         <div><i class="fa-solid fa-user"></i><label>User ID: </label><input type='text' name='userid'/></div>
         <div><i class="fa-solid fa-lock"></i><label>Password: </label>
